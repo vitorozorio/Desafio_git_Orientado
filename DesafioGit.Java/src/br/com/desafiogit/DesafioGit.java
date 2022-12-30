@@ -18,7 +18,7 @@ public class DesafioGit {
     public static void main(String[] args) {
        Scanner Texto = new Scanner(System.in);
 
-       Aluno vitor = new Aluno("vitor","495.715.908.43","jardinopolis",20,222,"ads",0);
+       Aluno vitor = new Aluno("vitor","495....","jardinopolis",20,222,"ads",0);
        Aluno Igor = new Aluno("igor","333...","rio",24,333,"ads",0);
 
        Funcionario Caio = new Funcionario("caio","555.666.777.88","ribeirão",21,555,"professor");
@@ -46,7 +46,7 @@ public class DesafioGit {
 
           }
        }
-       
+
 
     }
 }
