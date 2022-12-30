@@ -7,6 +7,7 @@ public class pessoa {
     private String endereco;
     private int idade;
 
+
     public pessoa(String nome, String cpf, String endereco, int idade) {
         this.nome = nome;
         this.cpf = cpf;

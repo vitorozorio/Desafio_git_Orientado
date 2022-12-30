@@ -1,13 +1,22 @@
 package br.com.desafiogit.relacionamento;
-import br.com.desafiogit.classFilhas.funcionario;
-import br.com.desafiogit.classFilhas.aluno;
+import br.com.desafiogit.classFilhas.Funcionario;
+import br.com.desafiogit.classFilhas.Aluno;
 
-public class turmas {
+public class Turmas {
 
     private char id;
     private String nomeDaTurma;
-    private aluno[] alunos;
-    private funcionario responsavel;
+    private Aluno[] alunos;
+
+    private Funcionario responsavel;
+
+    public Aluno[] getAlunos() {
+        return alunos;
+    }
+
+    public void setAlunos(Aluno[] alunos) {
+        this.alunos = alunos;
+    }
 
     public char getId() {
         return id;
@@ -25,19 +34,11 @@ public class turmas {
         this.nomeDaTurma = nomeDaTurma;
     }
 
-    public aluno[] getAlunos() {
-        return alunos;
-    }
-
-    public void setAlunos(aluno[] alunos) {
-        this.alunos = alunos;
-    }
-
-    public funcionario getResponsavel() {
+    public Funcionario getResponsavel() {
         return responsavel;
     }
 
-    public void setResponsavel(funcionario responsavel) {
+    public void setResponsavel(Funcionario responsavel) {
         this.responsavel = responsavel;
     }
 
